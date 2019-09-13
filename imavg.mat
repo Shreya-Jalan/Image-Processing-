@@ -1,0 +1,4 @@
+rgb =
+imread('https://personalpages.manchester.ac.uk/staff/david.foster/Hyperspectr al_images_of_natural_scenes_02_files/1.jpg');  h  =  ones(5,5)/25;
+rgb2  =  imfilter(rgb,h);
+imshow([rgb,rgb2])
