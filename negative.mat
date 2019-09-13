@@ -1,0 +1,3 @@
+a =
+imread('https://personalpages.manchester.ac.uk/staff/david.foster/Hyperspectr al_images_of_natural_scenes_02_files/1.jpg');  d=255-a;
+imshow([a,d])
